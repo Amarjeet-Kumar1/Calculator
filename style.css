@@ -1,0 +1,54 @@
+#container{
+	width: 25vw;
+	height: 70vh;
+	background-color: aquamarine;
+	margin: auto;
+	margin-top: 5vh;
+}
+#display-div{
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+#dis{
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+	font-size: x-large;
+}
+
+#input-div{
+	width: 100%;
+	height: 80%;
+	background-color: aquamarine;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.input-row{
+	width: 100%;
+	height: 18%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.input-btn{
+	height: 100%;
+	width: 22%;
+	background-color: white;
+	text-align: center;
+	color: rgb(7, 87, 17);
+}
+
+.zero-btn{
+	height: 100% ;
+	width: 47%;
+	/* background-color: white;
+	text-align: center;
+	color: rgb(7, 87, 17); */
+}
+.r-btn{
+	background-color: rgb(28, 160, 57);
+}
+
